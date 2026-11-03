@@ -1,3 +1,18 @@
+% LEDMatrix MATLAB Add-On for Arduino UNO R4 WiFi
+%
+% Copyright (c) 2026 Steven Schafrik, Ph.D.
+% Thanks to https://github.com/dfpsoeew/AccelStepperAddon 
+% for a complete guide for how to connect these add-ons
+%
+% This project provides MATLAB support for controlling the built-in
+% 12x8 LED matrix on the Arduino UNO R4 WiFi using the MATLAB
+% Support Package for Arduino Hardware.
+%
+% This software is licensed under the MIT License.
+% See the LICENSE file in the project repository for the full license text.
+%
+% SPDX-License-Identifier: MIT
+
 classdef LEDMatrix < matlabshared.addon.LibraryBase
     % LEDMatrix Control the built-in LED matrix on an Arduino UNO R4 WiFi.
     %
